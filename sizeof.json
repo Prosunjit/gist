@@ -1,0 +1,13 @@
+    [
+        {
+            "name":"sizeof",
+            "exec":{"path":"swift://AUTH_admin/zerovm/sizeof.nexe"},
+            "file_list":[
+                {"device":"stdin","path":"swift://AUTH_admin/zerovm/input.data"},
+                {"device":"stdout","path":"swift://AUTH_admin/zerovm/output.data"},
+                {"device":"stderr"}
+            ],
+            "args":"1048576"
+        }
+    ] 
+
